@@ -1,0 +1,16 @@
+# Ignore build artifacts
+/target/
+/dist-js/
+/node_modules/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lock files (optional, but often ignored for libraries)
+Cargo.lock

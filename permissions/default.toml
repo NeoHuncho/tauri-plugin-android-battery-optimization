@@ -1,0 +1,7 @@
+[default]
+description = "Default permissions for the Android Battery Optimization plugin. Allows all battery optimization commands."
+permissions = [
+    "allow-check-battery-optimization-status",
+    "allow-request-battery-optimization-exemption",
+    "allow-open-battery-settings"
+]

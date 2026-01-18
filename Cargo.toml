@@ -1,0 +1,21 @@
+[package]
+name = "tauri-plugin-android-battery-optimization"
+version = "0.1.0"
+authors = ["NeoHuncho"]
+description = "Tauri plugin for managing Android battery optimization settings and requesting unrestricted background usage."
+repository = "https://github.com/NeoHuncho/tauri-plugin-android-battery-optimization"
+keywords = ["tauri-plugin", "android", "battery-optimization", "background-usage", "doze-mode"]
+license = "MIT"
+edition = "2021"
+rust-version = "1.77.2"
+exclude = ["/examples", "/webview-dist", "/webview-src", "/node_modules"]
+links = "tauri-plugin-android-battery-optimization"
+
+[dependencies]
+tauri = { version = "2" }
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"
+log = "0.4"
+
+[build-dependencies]
+tauri-plugin = { version = "2", features = ["build"] }
