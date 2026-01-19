@@ -5,6 +5,7 @@ plugins {
 
 android {
     namespace = "com.plugin.android_battery_optimization"
+    // Align with the consuming app's compileSdk; 34 is the max supported by AGP 8.5.x
     compileSdk = 34
 
     defaultConfig {
@@ -34,5 +35,6 @@ android {
 }
 
 dependencies {
-    compileOnly("app.tauri:tauri-android:2.0.1")
+    // Tauri provides :tauri-android as a project; reference it instead of a Maven artifact
+    compileOnly(project(":tauri-android"))
 }
