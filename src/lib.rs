@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 use tauri::{
     plugin::{Builder, PluginHandle, TauriPlugin},
-    Runtime,
+    Manager, Runtime,
 };
 
 mod commands;

@@ -1,6 +1,6 @@
 [package]
 name = "tauri-plugin-android-battery-optimization"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["NeoHuncho"]
 description = "Tauri plugin for managing Android battery optimization settings and requesting unrestricted background usage."
 repository = "https://github.com/NeoHuncho/tauri-plugin-android-battery-optimization"
