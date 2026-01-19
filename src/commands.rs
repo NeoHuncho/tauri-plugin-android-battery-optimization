@@ -1,6 +1,6 @@
-use tauri::{Manager, Runtime};
+use tauri::Runtime;
 
-use crate::{AndroidBatteryOptimization, BatteryStatus, Error};
+use crate::{BatteryStatus, Error};
 
 /// Check the current battery optimization status.
 ///
