@@ -34,5 +34,5 @@ android {
 }
 
 dependencies {
-    implementation("app.tauri:tauri-android:2.0.0-beta")
+    implementation("app.tauri:tauri-android:2")
 }
