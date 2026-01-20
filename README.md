@@ -9,9 +9,7 @@ Tauri plugin for managing Android battery optimization settings. Request unrestr
 Android's Doze mode and battery optimization can delay background tasks and notifications. This plugin allows you to:
 
 - **Check** if your app is subject to battery optimization
-- **Request** exemption via the system dialog (unrestricted background usage)
-- **Opens a modal (see below) directly in your app**
-
+- **Request** exemption via the system dialog (unrestricted background usage- **See image below**) 
 <img width="377" height="225" alt="Screenshot 2026-01-19 at 17 48 53" src="https://github.com/user-attachments/assets/ed8f290c-c671-485c-aab1-4923a0fd4ae3" />
 
 ## Install
